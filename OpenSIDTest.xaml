@@ -107,7 +107,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenApplication ApplicationWindow="{x:Null}" Arguments="{x:Null}" TimeoutMS="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open Application 'SID.exe Active'" FileName="[TesztPath]" sap:VirtualizedContainerService.HintSize="434,500" sap2010:WorkflowViewState.IdRef="OpenApplication_1" InformativeScreenshot="42dc5e4fcef6220721993505ade78a3a" Selector="&lt;wnd app='sid.exe' cls='#32770' title='Active Directory Login' /&gt;">
+      <ui:OpenApplication ApplicationWindow="{x:Null}" Arguments="{x:Null}" TimeoutMS="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Open Application 'SID.exe Active'" FileName="\\Saturnus\Apps\SID\SIDHU_TEST\SID.exe" sap:VirtualizedContainerService.HintSize="434,500" sap2010:WorkflowViewState.IdRef="OpenApplication_1" InformativeScreenshot="66fc4743c296c2917ee155356bb1e16d" Selector="&lt;wnd app='sid.exe' cls='#32770' title='Active Directory Login' /&gt;">
         <ui:OpenApplication.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
