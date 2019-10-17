@@ -60,7 +60,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,561" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" WorkbookPath="I:\SID\_RobotConfig\mainConfig_OpenSID.xlsx">
+      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,561" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" Visible="False" WorkbookPath="I:\SID\_RobotConfig\mainConfig_OpenSID.xlsx">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>
@@ -140,7 +140,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="61d9dbd22989439dee24f789acd3d5ad" Selector="&lt;wnd app='sid.exe' ctrlname='MainForm' /&gt;&lt;wnd ctrlname='mnuMain' /&gt;&lt;ctrl idx='1' name='Refresh' role='menu item' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="57038cc713cabeaaf57b92b4f4a6132f" Selector="&lt;wnd app='sid.exe' ctrlname='MainForm' /&gt;&lt;wnd ctrlname='mnuMain' /&gt;&lt;ctrl idx='1' name='Frissítés' role='menu item' /&gt;" WaitForReady="INTERACTIVE">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
